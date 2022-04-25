@@ -1,1 +1,13 @@
-console.log("sup")
+// document.querySelector("button").addEventListener("click",handleClick)
+
+// function handleClick(){
+//     alert("i got clicked");
+// }
+
+
+for (let i = 0; i < document.getElementsByClassName("drum").length; i++) {
+    
+    document.querySelectorAll("button")[i].addEventListener("click", function(){
+        alert("I got clicked")
+    });
+}
