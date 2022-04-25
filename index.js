@@ -7,7 +7,7 @@
 
 for (let i = 0; i < document.getElementsByClassName("drum").length; i++) {
     
-    document.querySelectorAll("button")[i].addEventListener("click", function(){
+    document.querySelectorAll(".drum")[i].addEventListener("click", function(){
         alert("I got clicked")
     });
-}
+} 
