@@ -8,6 +8,8 @@
 for (let i = 0; i < document.getElementsByClassName("drum").length; i++) {
     
     document.querySelectorAll(".drum")[i].addEventListener("click", function(){
-        alert("I got clicked")
+       var audioFile = new Audio("sounds/tom-1.mp3")
+       audioFile.play();
+       
     });
 } 
