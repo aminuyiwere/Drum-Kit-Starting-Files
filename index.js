@@ -66,5 +66,5 @@ function buttonAnimation(key) {
   currentButton.classList.add("pressed")
   setTimeout(function(){
     currentButton.classList.remove("pressed")
-  },100)
+  },150)
 }
