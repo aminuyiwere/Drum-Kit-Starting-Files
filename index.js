@@ -68,3 +68,6 @@ function buttonAnimation(key) {
     currentButton.classList.remove("pressed")
   },150)
 }
+
+var year = new Date().getFullYear();
+document.getElementById("copyright").innerHTML = "Copyright "+ year;
